@@ -29,6 +29,6 @@ const upload = multer({
   limits: {
     fileSize: 2 * 1024 * 1024 // 2 MB (max file size)
   }
-}).single('picture')
+})
 
 module.exports = upload

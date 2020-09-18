@@ -3,7 +3,7 @@ const controller = require('../controllers')
 const { getEvents, addEvents } = controller
 
 router
-	.get('/:id?', getEvents)
+	.get('/', getEvents)
 	.post('/', addEvents)
 
 module.exports = router
